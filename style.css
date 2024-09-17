@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #65AFFF;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #274060;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1.2rem;
+    width: 300px;
+    height: 420px;
+}
+
+form input{
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+form h1{
+    margin-bottom: 10px;
+}
+.srch-btn{
+    height: 2.2rem;
+    width: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+#weather-icon{
+    height: 130px;
+    margin-top: 40px;
+}
+
+.weather-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-icon-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column; /* Aligns icon and text in two rows */
+    align-items: center; /* Centers icons and text horizontally */
+}
+
+.icon-text img {
+    width: 50px; 
+    height: auto;
+}
+
+.icon-text span {
+    margin-top: 5px; /* Adds space between icon and text */
+    color: white; /* Color for the text */
+    font-size: 0.9rem;
+}
