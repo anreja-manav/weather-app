@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #65AFFF;
+    background-color: #222;
     min-height: 100vh;
 }
 
@@ -16,7 +16,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #274060;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: white;
     text-align: center;
     border: 2px solid black;
     border-radius: 1.2rem;
