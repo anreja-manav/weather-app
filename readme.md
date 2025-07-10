@@ -35,6 +35,6 @@ This app uses the [OpenWeatherMap API](https://openweathermap.org/api), which re
 ### 👉 Steps to run the project locally:
 
 1. Go to [https://openweathermap.org/api](https://openweathermap.org/api) and sign up to get your **free API key**.
-2. In the `app.js` file, locate the line:
+2. In the `script.js` file, locate the line:
    ```javascript
    const API_KEY = "your_api_key_here";
