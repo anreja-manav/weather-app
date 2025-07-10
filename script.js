@@ -8,10 +8,12 @@ const windSpeed = document.querySelector("#Wind-speed");
 
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 
+const API_KEY = "your_api_key_here";
+
 btn.addEventListener("click", async (evt) => {
     evt.preventDefault();
     let cityName = input.value;
-    const URL = `${baseUrl}${cityName}&appid=c64e981fb364c9967f79f473974421f6&units=metric`;
+    const URL = `${baseUrl}${cityName}&appid=${API_KEY}&units=metric`;
     let response = await fetch(URL);
     let data = await response.json(); 
     temp.innerHTML = `${Math.round(data.main.temp)} °C`;
