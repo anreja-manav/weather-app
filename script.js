@@ -8,7 +8,7 @@ const windSpeed = document.querySelector("#Wind-speed");
 
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 
-const API_KEY = "your_api_key_here";
+const API_KEY = CONFIG.WEATHER_API_KEY;
 
 btn.addEventListener("click", async (evt) => {
     evt.preventDefault();
